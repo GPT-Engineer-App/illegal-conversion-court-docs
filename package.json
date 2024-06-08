@@ -1,4 +1,11 @@
 {
+  "name": "data-gathering-casetext-justia",
+  "version": "1.0.0",
+  "description": "Script to gather court case data from CaseText and Justia",
+  "main": "src/data-gathering.js",
+  "scripts": {
+    "start": "node src/data-gathering.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "node-fetch": "^2.6.1"
