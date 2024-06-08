@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Housing Court Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4">NYC Housing Court Data</h1>
+        <p class="mb-4">This dataset contains court case documents, motions, and decisions/orders related to NYC housing court involving illegal apartments converted from commercial to residential, contradicting the certificate of occupancy and/or lacking a certificate of occupancy.</p>
+        <table class="min-w-full bg-white">
+            <thead>
+                <tr>
+                    <th class="py-2 px-4 border-b border-gray-200">Case Type</th>
+                    <th class="py-2 px-4 border-b border-gray-200">Key Issues</th>
+                    <th class="py-2 px-4 border-b border-gray-200">Outcome</th>
+                    <th class="py-2 px-4 border-b border-gray-200">Laws Referenced</th>
+                    <th class="py-2 px-4 border-b border-gray-200">Key Arguments</th>
+                    <th class="py-2 px-4 border-b border-gray-200">Final Rulings</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+                <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="data.js"></script>
+</body>
+</html>
